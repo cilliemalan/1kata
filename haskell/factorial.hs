@@ -1,3 +1,4 @@
+-- Build like so: ghc -O factorial.hs
 import System.Environment
 import Text.Read
 
