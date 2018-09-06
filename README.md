@@ -16,7 +16,7 @@ How to compile the stuff
 ## Assembly
 Run this:
 ```sh
-nasm factorial.asm -g -o factorial.o -f elf64 -l factorial.lst
+nasm factorial.asm -o factorial.o -f elf64 -l factorial.lst
 ld -e _start -o factorial factorial.o
 ```
 

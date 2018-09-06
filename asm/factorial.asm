@@ -1,4 +1,4 @@
-; build with: nasm factorial.asm -g -o factorial.o -f elf64 -l factorial.lst
+; build with: nasm factorial.asm -o factorial.o -f elf64 -l factorial.lst
 ; and then:   ld -e _start -o factorial factorial.o
 ; syscalls reference: https://syscalls.kernelgrok.com/
 
