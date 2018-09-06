@@ -25,6 +25,6 @@ int main(int argc, char** argv)
     else
     {
         n = atoi(argv[1]);
-        printf("The result is: %d\n", factorial(n));
+        printf("%d\n", factorial(n));
     }
 }
