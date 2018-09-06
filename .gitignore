@@ -1,0 +1,6 @@
+factorial
+*.o
+*.hi
+*.lst
+bin/
+obj/
