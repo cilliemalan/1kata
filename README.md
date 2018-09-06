@@ -5,7 +5,7 @@ using 3 different languages. The three languages are
 x64 assembly, c, and haskell.
 
 # Requirements
-The sourcesa re designed to be built and run on Linux.
+The sources are designed to be built and run on Linux.
 The c and haskell sources should work in Windows with
 some expertise. The assembly one uses hardcoded Linux
 syscalls, so no platform independence there.
