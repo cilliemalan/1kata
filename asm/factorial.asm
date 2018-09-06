@@ -96,9 +96,9 @@ _start:
 	mov		rdi, buffer	; rdi points to buffer
 	call	itoa		; convert rax to string at buffer
 
-    mov     byte [rdi+rcx], 0ah ; add newline on the end
+    mov		rsi, buffer ; rsi points to buffer
+    mov     byte [rsi+rcx], 0ah ; add newline on the end
     inc     rcx         ; increase the length to accomodate
-	mov		rsi, buffer ; rsi points to buffer
     mov     rdx, rcx    ; count to rdx
 	jmp writef
 
